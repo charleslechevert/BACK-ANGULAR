@@ -6,7 +6,7 @@ const materialModel = {
   async getAll() {
     try {
       // Insert the player into the database
-      const result = await client.query("SELECT * FROM matemrials");
+      const result = await client.query("SELECT * FROM materials");
       return result.rows;
     } catch (err) {
       debug(err);
