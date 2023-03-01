@@ -6,7 +6,6 @@ const errorHandler = {
   // 4 parameters === Error handler for Express
   // If an error occurs, it end up here
   manage(err, req, res, _) {
-    console.log(err);
     errorHandler.logError(err, req.url);
     if (err.code) {
       res.status(err.code).json(err.message);

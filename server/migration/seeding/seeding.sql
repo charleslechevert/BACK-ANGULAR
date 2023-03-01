@@ -10,7 +10,7 @@ VALUES ('HCO Factory', 'INDIA','B-'),
 
 TRUNCATE TABLE materials CASCADE;
 INSERT INTO materials (label, cost, greenCost, quality, shippingDate, supplier_id)
-VALUES ('Carbon V5 Shied', '10.5', '1.3', 'B-', '15/01/2023', 1),
+VALUES ('Carbon V5 Shied', '10.5', '1.3', 'B-', '14/01/2023', 1),
 ('Carbon V5 Shied', '10.5', '1.3', 'B-', '15/01/2023', 1),
 ('Carbon V5 Shied', '9.8', '1.5', 'C+', '16/01/2023', 2),
 ('Carbon V5 Shied', '11.2', '1.2', 'B', '17/01/2023', 3),
@@ -27,7 +27,7 @@ VALUES ('Carbon V5 Shied', '10.5', '1.3', 'B-', '15/01/2023', 1),
 ('Plastic Cover', '7.2', '0.8', 'C+', '02/02/2023', 3),
 ('Plastic Cover', '6.5', '0.7', 'C', '04/02/2023', 4),
 ('Plastic Cover', '5.9', '0.6', 'B-', '08/02/2023', 5),
-('Aluminum Shield', '11.1', '1.4', 'B+', '10/02/2023', 1),
+('Aluminium Shield', '11.1', '1.4', 'B+', '10/02/2023', 1),
 ('Aluminium Shield', '8.2', '0.9', 'B', '21/02/2023', 4),
 ('Aluminium Shield', '8.8', '0.8', 'B+', '18/02/2023', 2),
 ('Aluminium Shield', '7.5', '1.0', 'C+', '27/01/2023', 3),
