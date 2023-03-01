@@ -69,9 +69,7 @@ const errorHandler = {
         stackFormated +
         "\n";
       await appendFile(filePath, line);
-    } catch (errorWrite) {
-      console.log(errorWrite);
-    }
+    } catch (errorWrite) {}
 
     if (file) {
       await file.close();
